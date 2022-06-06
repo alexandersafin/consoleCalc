@@ -9,7 +9,7 @@ public final class Main {
 
     public static void main(final String[] args) {
         while (true) {
-            System.out.println("Введите числа. Для выхода введите 'exit'");
+            System.out.println("Введите числа. Для выхода введите пустое значение");
             String input = UserInput.getLine();
             if (input.equals("")) {
                 break;
